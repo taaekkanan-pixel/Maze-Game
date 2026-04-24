@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Escape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Maze Escape</h1>
+        <div class="info-panel">
+            <h2 id="level-display">Level: 1</h2>
+            <p id="message">Use Arrow Keys or WASD to move. Reach the green square!</p>
+        </div>
+        
+        <canvas id="gameCanvas"></canvas>
+
+        <div class="controls">
+            <button id="restart-btn">Restart Level</button>
+            <button id="next-btn" style="display: none;">Next Level</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
